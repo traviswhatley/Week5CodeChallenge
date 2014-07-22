@@ -11,7 +11,7 @@
     @Html.ValidationSummary(true)
 
     <fieldset>
-        <legend>ContactInfo</legend>
+        <legend>Contact Info</legend>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.FirstName)
@@ -71,7 +71,9 @@
         </div>
 
         <p>
+            <div id="button">
             <input type="submit" value="Save" />
+            </div>
         </p>
     </fieldset>
 }

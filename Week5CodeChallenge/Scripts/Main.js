@@ -13,10 +13,7 @@
             });
         }
     });
-});
-
-$(document).ready(function () {
-    $("#basic_button").click(function () {
-        jAlert('Thank you for registering', 'Thank you');
+    $('#button').on('click', function () {
+        alert('Thank you for registering');
     });
-});
+ });

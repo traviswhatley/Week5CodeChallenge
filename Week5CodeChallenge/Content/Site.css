@@ -89,13 +89,21 @@ li:hover{
     color:#fff;
 }
 
-.work{
-    max-height:500px;
-    max-width:500px;
-    display:inline-block;
-    text-wrap:avoid;
-    overflow:hidden;
+.container{
+    text-align:center;
+}
 
+.work1, .work2, .work3, .work4{
+    display:inline-block;
+    width:45%;
+    border:solid;
+    border-color:black;
+    text-align:center;
+}
+
+.img{
+    height:520px;
+    margin-top:8px;
 }
 
 .div1{
@@ -103,46 +111,17 @@ li:hover{
 }
 
 #div2, #div3, #div4{
+    display:inline-block;
     width:33%;
     border-color:black;
     border:solid;
     border-width:1px;
-    display:inline-block;
 }
 
 
 
-#img1{
-    display:inline-block;
-    width:45%;
-    border:solid;
-    border-color:black;
-    text-align:center;
-}
 
-#img2{
-    display:inline-block;
-    width:45%;
-    border:solid;
-    border-color:black;
-    text-align:center;
-}
 
-#img3{
-    display:inline-block;
-    width:45%;
-    border:solid;
-    border-color:black;
-    text-align:center;
-}
-
-#img4{
-    display:inline-block;
-    width:45%;
-    border:solid;
-    border-color:black;
-    text-align:center;
-}
 
 header{
     width:100%;

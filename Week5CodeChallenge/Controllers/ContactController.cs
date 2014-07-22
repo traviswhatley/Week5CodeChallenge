@@ -10,7 +10,7 @@ namespace Week5CodeChallenge.Controllers
     {
         //
         // GET: /Contact/
-
+        [HttpGet]
         public ActionResult Index()
         {
             Models.ContactInfo cf = new Models.ContactInfo();
@@ -18,7 +18,7 @@ namespace Week5CodeChallenge.Controllers
         }
 
         // POST: /Contact/
-
+        [HttpPost]
         public ActionResult Index(Models.ContactInfo cf)
         {
             //creat a new connection to database
@@ -28,7 +28,7 @@ namespace Week5CodeChallenge.Controllers
             //save changes
             db.SaveChanges();
 
-            return View();
+            return RedirectToAction("Index", "Contact");
         }
 
     }
